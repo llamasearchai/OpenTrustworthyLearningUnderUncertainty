@@ -1,0 +1,68 @@
+# OpenTLU Frontend CODEOWNERS
+# Each line is a file pattern followed by one or more owners.
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+* @opentlu/frontend-core
+
+# CI/CD and DevOps
+.github/ @opentlu/devops @opentlu/frontend-leads
+.github/workflows/ @opentlu/devops
+
+# Frontend Core
+frontend/src/ @opentlu/frontend-core
+
+# Components and UI
+frontend/src/components/ @opentlu/frontend-ui
+frontend/src/components/ui/ @opentlu/frontend-ui @opentlu/design-system
+
+# AI Integration
+frontend/src/lib/ai/ @opentlu/ai-team @opentlu/frontend-core
+
+# State Management
+frontend/src/store/ @opentlu/frontend-core
+frontend/src/hooks/ @opentlu/frontend-core
+
+# API and Data Layer
+frontend/src/api/ @opentlu/backend-team @opentlu/frontend-core
+frontend/src/lib/ @opentlu/frontend-core
+
+# Testing
+frontend/src/**/*.test.ts @opentlu/qa-team @opentlu/frontend-core
+frontend/src/**/*.test.tsx @opentlu/qa-team @opentlu/frontend-core
+frontend/e2e/ @opentlu/qa-team
+frontend/playwright.config.ts @opentlu/qa-team
+
+# Documentation
+frontend/docs/ @opentlu/docs-team
+*.md @opentlu/docs-team
+
+# Configuration Files
+frontend/package.json @opentlu/frontend-leads
+frontend/tsconfig*.json @opentlu/frontend-leads
+frontend/vite.config.ts @opentlu/frontend-leads
+frontend/tailwind.config.ts @opentlu/frontend-ui @opentlu/design-system
+
+# Storybook
+frontend/.storybook/ @opentlu/frontend-ui @opentlu/design-system
+frontend/src/**/*.stories.tsx @opentlu/frontend-ui
+
+# Security-sensitive files
+frontend/.env* @opentlu/security @opentlu/frontend-leads
+**/secrets/ @opentlu/security
+
+# Types and Interfaces
+frontend/src/types/ @opentlu/frontend-core @opentlu/backend-team
+
+# Utilities
+frontend/src/utils/ @opentlu/frontend-core
+
+# Pages and Routes
+frontend/src/pages/ @opentlu/frontend-core
+frontend/src/routes/ @opentlu/frontend-core
+
+# Styles
+frontend/src/styles/ @opentlu/frontend-ui @opentlu/design-system
+
+# Build and bundling
+frontend/vite.config.ts @opentlu/devops @opentlu/frontend-leads

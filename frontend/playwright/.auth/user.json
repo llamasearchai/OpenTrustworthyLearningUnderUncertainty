@@ -1,0 +1,29 @@
+{
+  "cookies": [
+    {
+      "name": "auth_token",
+      "value": "mock-jwt-token-for-testing",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1767562402.358,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://localhost:3000",
+      "localStorage": [
+        {
+          "name": "auth_token",
+          "value": "mock-jwt-token-for-testing"
+        },
+        {
+          "name": "user",
+          "value": "{\"email\":\"test@example.com\",\"name\":\"Test User\",\"role\":\"user\"}"
+        }
+      ]
+    }
+  ]
+}
