@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**A rigorous engineering framework for building Trustworthy Learning-Based Models (LBMs) that operate reliably under uncertainty, distribution shift, and open-world conditions.**
+**A (work in progress) rigorous engineering framework for building Trustworthy Learning-Based Models (LBMs) that operate reliably under uncertainty, distribution shift, and open-world conditions.**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
@@ -15,7 +15,7 @@
 
 ## Overview
 
-OpenTLU is a comprehensive framework designed to address the critical challenges of deploying machine learning models in safety-critical applications. It provides robust mechanisms for uncertainty quantification, safety filtering, runtime monitoring, and active learning to ensure reliable operation under uncertainty and distribution shift.
+OpenTLU aims to be a comprehensive framework designed to address the critical challenges of deploying machine learning models in safety-critical applications. It provides robust mechanisms for uncertainty quantification, safety filtering, runtime monitoring, and active learning to ensure reliable operation under uncertainty and distribution shift.
 
 ### Key Capabilities
 
