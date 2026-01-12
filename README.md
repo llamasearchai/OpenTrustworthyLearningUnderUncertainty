@@ -4,6 +4,12 @@ A (work in progress) rigorous engineering framework for building Trustworthy Lea
 
 Author: Nik Jois <nikjois@llamasearch.ai>
 
+## Screenshot
+
+![OpenTLU Dashboard](docs/images/dashboard-screenshot.png)
+
+The OpenTLU dashboard provides real-time visualization of uncertainty metrics, safety monitoring, and 3D scene analysis with out-of-distribution detection.
+
 ## Quickstart
 
 1.  **Install**: `uv sync` or `pip install -e .[dev]`
