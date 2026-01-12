@@ -1,0 +1,55 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors / IDEs
+.idea/
+.vscode/
+.cursor/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.hypothesis/
+.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / Frontend
+node_modules/
+.pnpm-store/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+vite-dev.log
+
+# Frontend build + tooling outputs
+frontend/dist/
+frontend/coverage/
+frontend/playwright-report/
+frontend/playwright-results/
+frontend/storybook-static/
+frontend/.storybook/
+
+# Generic logs
+*.log
+
